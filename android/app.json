@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "PlantGuard AI",
+    "slug": "plantguard-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#2d6a4f"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2d6a4f"
+      },
+      "package": "com.plantguard.ai",
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        { "cameraPermission": "PlantGuard AI needs camera access to photograph plants." }
+      ],
+      [
+        "expo-image-picker",
+        { "photosPermission": "PlantGuard AI needs photo library access to select plant images." }
+      ]
+    ]
+  }
+}

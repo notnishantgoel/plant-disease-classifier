@@ -1,0 +1,41 @@
+# ── Model weights (too large for GitHub — store separately) ──
+models/
+
+# ── Raw + processed dataset (1.6 GB) ──
+data/
+
+# ── YOLO run artefacts (weights + sample images) ──
+results/runs/
+
+# ── Python ──
+.venv/
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+*.h5
+*.onnx
+*.egg-info/
+dist/
+build/
+.env
+
+# ── Node / React ──
+webapp/node_modules/
+webapp/dist/
+webapp/.vite/
+
+# ── Android / Expo ──
+android/node_modules/
+android/.expo/
+android/android/
+android/ios/
+
+# ── macOS ──
+.DS_Store
+**/.DS_Store
+
+# ── Editor ──
+.vscode/
+.idea/
+*.swp
